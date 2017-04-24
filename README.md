@@ -1,9 +1,14 @@
-# api documentation for  [upstarter (v0.2.6)](https://github.com/carlos8f/node-upstarter)  [![npm package](https://img.shields.io/npm/v/npmdoc-upstarter.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-upstarter) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-upstarter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-upstarter)
+# npmdoc-upstarter
+
+#### api documentation for  upstarter (v0.2.6)  [![npm package](https://img.shields.io/npm/v/npmdoc-upstarter.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-upstarter) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-upstarter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-upstarter)
+
 #### Easily create upstart services for your node apps
 
-[![NPM](https://nodei.co/npm/upstarter.png?downloads=true)](https://www.npmjs.com/package/upstarter)
+[![NPM](https://nodei.co/npm/upstarter.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/upstarter)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-upstarter/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-upstarter%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-upstarter/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-upstarter/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-upstarter/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-upstarter/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-upstarter/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-upstarter/build/screenCapture.npmPackageListing.svg)
 
@@ -16,34 +21,19 @@
 ```json
 
 {
-    "author": {
-        "name": "Carlos Rodriguez",
-        "email": "carlos@s8f.org",
-        "url": "http://s8f.org/"
-    },
-    "bin": {
-        "upstarter": "./bin/upstarter"
-    },
-    "bugs": {
-        "url": "https://github.com/carlos8f/node-upstarter/issues"
-    },
-    "dependencies": {
-        "async": "~0.1.22",
-        "commander": "~1.0.4",
-        "handlebars": "~1.0.5beta"
-    },
+    "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
+    "name": "upstarter",
     "description": "Easily create upstart services for your node apps",
+    "version": "0.2.6",
+    "bin": "./bin/upstarter",
+    "dependencies": {
+        "handlebars": "~1.0.5beta",
+        "commander": "~1.0.4",
+        "async": "~0.1.22"
+    },
+    "preferGlobal": true,
     "devDependencies": {},
-    "directories": {},
-    "dist": {
-        "shasum": "f04221b5b10aa625f2a6e222efb1d26b0e2a08e3",
-        "tarball": "https://registry.npmjs.org/upstarter/-/upstarter-0.2.6.tgz"
-    },
-    "engines": {
-        "node": ">= 0.6.0"
-    },
-    "gitHead": "4f09af5be24bf4b6ae067996cfe03f8d9ba32c35",
-    "homepage": "https://github.com/carlos8f/node-upstarter",
+    "optionalDependencies": {},
     "keywords": [
         "upstart",
         "ubuntu",
@@ -51,34 +41,15 @@
         "daemon",
         "daemonize"
     ],
-    "maintainers": [
-        {
-            "name": "carlos8f",
-            "email": "carlos@s8f.org"
-        }
-    ],
-    "name": "upstarter",
-    "optionalDependencies": {},
-    "preferGlobal": true,
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/carlos8f/node-upstarter.git"
+        "url": "https://github.com/carlos8f/node-upstarter.git"
     },
-    "scripts": {},
-    "version": "0.2.6"
+    "engines": {
+        "node": ">= 0.6.0"
+    }
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module upstarter](#apidoc.module.upstarter)
-
-
-
-# <a name="apidoc.module.upstarter"></a>[module upstarter](#apidoc.module.upstarter)
 
 
 
